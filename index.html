@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>GitHub Profile Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Heading -->
+
+    <h1>GitHub Profile Analyzer</h1>
+
+
+    <!-- Home Description -->
+
+    <div class="description">
+
+        <p>
+            GitHub Profile Analyzer is a simple web-based application
+            that helps users explore and understand a GitHub profile
+            in an easy way.By entering a GitHub username, you can view basic profile
+            information such as the user's name, username, followers,
+            following, and total number of public repositories. The application also displays the user's repositories
+            along with useful details such as repository name,
+            description, programming language, and number of stars.
+            This project is built using HTML, CSS, and JavaScript.
+            JavaScript uses the GitHub API to fetch the required
+
+        </p>
+
+    </div>
+
+
+    <!-- Username Input -->
+
+    <div class="search">
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter GitHub username"
+        >
+
+        <button onclick="getProfile()">
+            Search
+        </button>
+
+    </div>
+
+
+    <!-- Profile Result -->
+
+    <div id="profile"></div>
+
+
+    <!-- Repository Result -->
+
+    <div id="repositories"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
